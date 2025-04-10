@@ -149,17 +149,14 @@ Parameters:
 ```
 
 ``` JSON title="Response Body - 200 Success"
-[
-  {
-    "accountNumber": "string",
-    "name": "string",
-    "officer": {
-      "name": "string",
-      "eMail": "string",
-      "phone": "string"
-    }
-  }
-]
+{
+    "openingFileID": "string",
+    "state": "string",
+    "account": "string",
+    "message": "string",
+    "accountId": "int",
+    "userId": "int?"
+}
 ```
 
 ---
@@ -186,9 +183,11 @@ Parameters:
     "externalId": "string",
     "state": "string",
     "stateDetail": "string",
-    "creationDate": "2023-10-06T14:48:23.532Z",
-    "account": "string"
-  }
+    "creationDate": "datetime",
+    "account": "string",
+    "accountId": "int",
+    "userId": "int?"
+}
 ```
 
 ---
