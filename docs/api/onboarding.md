@@ -174,12 +174,13 @@ Parameters:
 {
     "openingFileID": "12345",
     "state": "EN-PROCESO",
-    "account": "null",
-    "message": "null",
+    "account": null,
+    "message": null,
     "accountId": 0,
-    "userId": "null"
+    "userId": null
 }
 ```
+
 ---
 
 Retrieves the status of an opening file
