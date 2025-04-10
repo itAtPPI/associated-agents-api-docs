@@ -170,14 +170,14 @@ Parameters:
 }
 ```
 
-``` JSON title="Response Body - 200 Success Examples - En Proceso"
+``` JSON title="Response Body - 200 Success Example - En Proceso"
 {
     "openingFileID": "12345",
     "state": "EN-PROCESO",
-    "account": null,
-    "message": null,
+    "account": "null",
+    "message": "null",
     "accountId": 0,
-    "userId": null
+    "userId": "null"
 }
 ```
 ---
