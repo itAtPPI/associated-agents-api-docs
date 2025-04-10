@@ -148,7 +148,7 @@ Parameters:
 }
 ```
 
-``` JSON title="Response Body - 200 Success"
+``` JSON title="Response Body"
 {
     "openingFileID": "string",
     "state": "string",
@@ -159,6 +159,25 @@ Parameters:
 }
 ```
 
+``` JSON title="Response Body - 200 Success Examples"
+{
+    "openingFileID": "12345",
+    "state": "FINALIZADO",
+    "account": "1111",
+    "message": "Cuenta generada correctamente",
+    "accountId": 54321,
+    "userId": 88888
+}
+
+{
+    "openingFileID": "12345",
+    "state": "EN-PROCESO",
+    "account": null,
+    "message": null,
+    "accountId": 0,
+    "userId": null
+}
+```
 ---
 
 Retrieves the status of an opening file
