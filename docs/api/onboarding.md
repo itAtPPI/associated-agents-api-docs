@@ -159,7 +159,7 @@ Parameters:
 }
 ```
 
-``` JSON title="Response Body - 200 Success Examples"
+``` JSON title="Response Body - 200 Success Example - Finalizado"
 {
     "openingFileID": "12345",
     "state": "FINALIZADO",
@@ -168,7 +168,9 @@ Parameters:
     "accountId": 54321,
     "userId": 88888
 }
+```
 
+``` JSON title="Response Body - 200 Success Examples - En Proceso"
 {
     "openingFileID": "12345",
     "state": "EN-PROCESO",
