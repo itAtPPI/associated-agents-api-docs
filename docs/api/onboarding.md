@@ -7,7 +7,7 @@
 __Swagger Sandbox__
 !!! note ""
 
-    Accedé a la documentación de swagger sandbox a través de este [__link__](https://onboarding-productor-sandbox.portfoliopersonal.com/swagger/index.html)
+    Accedé a la documentación de swagger sandbox a través de este [__link__](https://onboardingapisandbox.portfoliopersonal.com/swagger/index.html)
 
 __Postman Collection__
 !!! note ""
